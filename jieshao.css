@@ -1,0 +1,31 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 24px 26px;
+        text-decoration: none;
+        }
+h1 {
+            font-family: "Lucida Console", "Courier New", monospace;
+            text-align: center;
+              }
+p.gong { border-style: solid;
+        border-color: black black black black black;
+        width: 750px;
+        text-align:left;
+              }
+              h2 {
+                font-family: "Lucida Console", "Courier New", monospace;
+                text-align: center;
+                  }
