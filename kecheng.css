@@ -16,31 +16,76 @@ li a {
     padding: 24px 26px;
     text-decoration: none;
     }
-h2 {
+h3{
     font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-    font-size: 35px;
-    }
-p.Math { border-style: solid;
-    border-color: black black black black black;
-    width: 500px;
-    text-align:left;
-    }
-p.English { border-style: solid;
-    border-color: black black black black black;
-    width: 500px;
-    text-align:left;
-    }
-p.History { border-style: solid;
-    border-color: black black black black black;
-    width: 500px;
-    text-align:left;
-    }
-h3 {font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-    font-size: 35px;
-    }   
-h4 {font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-    font-size: 35px;
-    }
+    text-align: left;
+    font-size: 15px;
+}
+h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: left;
+    font-size: 15px;
+}
+    .div1 {
+        background: red;
+      }
+      p.gong { border-style: solid;
+        border-color: black black black black black;
+        width: 750px;
+        text-align:left;
+              }
+              table {
+                border-collapse: collapse;
+              }
+              
+              th, td {
+                border: 1px solid black;
+              }
+              th, td {
+                  border: 2px solid black;
+                  padding: 10px;
+              }
+              
+              thead th {
+                width: 25%;
+              }
+              table {
+                border-collapse: collapse;
+              }
+              
+              caption {
+                font-weight: bold;
+                font-size: 30px;
+                text-align: center;
+                color: #333;
+              }
+              
+              
+              th, td {
+                border: 1px solid black;
+                padding: 8px;
+              }
+              caption {
+                font-weight: bold;
+                font-size: 24px;
+                color: red;
+                margin-bottom: 16px;
+              }
+              
+              thead {
+                background-color: tomato;
+                color: white;
+              }
+              thead {
+                  color: white;
+                  font-size: 0.875rem;
+                  text-transform: uppercase;
+                  letter-spacing: 2%;
+              }
+              tbody tr:nth-child(odd) {
+                background-color: #fff;
+              }
+              
+              tbody tr:nth-child(even) {
+                background-color: #eee;
+              }
